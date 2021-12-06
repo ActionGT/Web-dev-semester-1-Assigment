@@ -19,6 +19,10 @@
     background-color: #ddd;
     color: black;
   }
+.main-mid{
+    text-align: center;
+}
+  
   
   /* Add a color to the active/current link */
   .topnav a.active {
@@ -27,8 +31,9 @@
   }
   .footer {
     position: fixed;
+   top:1250px;
     left: 0;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     background-color: rgb(46, 4, 39);
     color: white;
