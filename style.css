@@ -109,26 +109,15 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 800px) {
   .topnav a{
-    /* color: #f2f2f2;
-    display: block;
-    
-    padding: 1px 5px; */
-  /* display: block;
  
-  
- 
-  text-decoration: none;
-  font-size: 17px;  */
   text-align: center;
   width: 100%;
   }
-  .main-mid {
-    
-  }
+ 
   .container-wide img{
     display:none;
   }
-  .container{}
+
   .footer{
     height: 50px;
   }
@@ -138,12 +127,16 @@ input[type=submit]:hover {
   .main-mid {
     display:none;
   }
-  .container-wide img{
-    width: 400px;
-    height: 400px;
+
+  .centered-txt {
+   position: relative; 
+   padding-top: 100%;
+    
+    
   }
   .footer{
-    height: 100px;
+    height: 50px;
   }
 }
+
 
